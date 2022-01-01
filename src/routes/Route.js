@@ -5,7 +5,7 @@ import Home from '../pages/Home'
 
 function Hed() {
     return (
-        <div>
+        <div style={{backgroundColor:'#1E1F25'}}>
         <BrowserRouter>
         <Header/>
         <Routes>

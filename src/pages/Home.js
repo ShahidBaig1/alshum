@@ -20,7 +20,7 @@ import Foter from '../components/footer/index'
 function Home() {
     const classes = useStyles();
     return (
-        <div>
+        <div style={{backgroundColor:'#1E1F25'}}>
             <Slotsection/>
             <div className={classes.mapsec}>
             <Map/>
