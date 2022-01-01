@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
         "&:hover": {
           color: 'orchid'
         },
-        [theme.breakpoints.down('xs')]:{
+        [theme.breakpoints.down('sm')]:{
           display: 'none',
         }
         
