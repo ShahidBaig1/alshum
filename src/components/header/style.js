@@ -33,6 +33,9 @@ const useStyles = makeStyles((theme) => ({
           cursor: 'pointer',
           padding:2,
           margin:2,
+          [theme.breakpoints.down('xs')]:{
+            display: 'none',
+          }
           
         //   [theme.breakpoints.down('xs')]:{
         //     display: 'none',
@@ -46,9 +49,7 @@ const useStyles = makeStyles((theme) => ({
         "&:hover": {
           color: 'orchid'
         },
-        [theme.breakpoints.down('xs')]:{
-          display: 'none',
-        }
+       
         
       },
       
